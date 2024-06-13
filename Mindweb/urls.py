@@ -19,5 +19,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('mind-web-kappa.vercel.app/admin/', admin.site.urls),
-    path('mind-web-kappa.vercel.app/', include('mind_web.urls')),
+    path('https://mind-web-kappa.vercel.app/', include('mind_web.urls')),
 ]
